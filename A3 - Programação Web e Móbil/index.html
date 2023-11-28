@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/style.css" rel="stylesheet">
+    <title>Esporte total</title>
+</head>
+<body id="body-pricipal">
+
+    <div id="principal">
+        <div id="cabeca">
+
+            <header>
+                <div id="navbar">
+                  <div id="navbar2"> 
+
+                    <a class="texto-1" href="./index.html">Início</a>
+                  </div>
+
+                  <div> 
+
+                    <a class="texto-1" id="navbar3" href="./sobre.html">Sobre</a>
+                  </div>
+
+                  <div> 
+
+                    <a class="texto-1" id="navbar4" href="./refs.html">Referências</a>
+                  </div>
+        
+      
+              
+                    
+     
+                  
+                </div>
+                
+              </header>
+
+
+        </div>
+
+        <div id="main">
+            <h1 id="text-1" class="textos">Tudo para você acompanhar o seu esporte favorito</h1>
+
+            <h2 id="text-2" class="textos">Escolha o seu esporte favorito</h2>
+            
+
+            <label for="selecionarPagina" class = "textos">Selecione uma página:</label>
+            <select id="selecionarPagina" list="list-esportes" placeholder="Esporte" onclick="selecao()">
+            
+              <option value="" selected>Esportes</option>
+              <option value="futebol.html">Futebol</option>
+              <option value="basquete.html">Basquete</option>
+              <option value="formula1.html">Fórmula 1</option>
+              <option value="bike.html">Ciclismo</option>
+              <option value="skate.html">Skate</option>
+              <option value="musculação.html">Musculação</option>
+              <option value="corrida.html">Corrida</option>
+              
+
+              
+
+
+
+            </select>
+
+            <button id="botao" onclick="abrirPagina()"> Abrir Página </button>
+
+            <script>
+
+         function abrirPagina() {
+      var select = document.getElementById("selecionarPagina");
+      var selectedValue = select.value;
+
+      if (selectedValue) {
+        window.location.href = selectedValue; // Redireciona para a página selecionada
+      } else {
+        alert("Por favor, selecione uma página antes de abrir.");
+      }
+    }
+
+
+
+
+            </script>
+            
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+    
+</body>
+</html>

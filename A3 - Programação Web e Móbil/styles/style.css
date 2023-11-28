@@ -1,0 +1,282 @@
+
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+body{
+    margin: 0;
+    margin: 0px;
+    font-family: 'Circular Std', sans-serif;
+
+}
+
+#body-pricipal{
+    margin: 0;
+    margin: 0px;
+    font-family: 'Circular Std', sans-serif;
+    background-image: linear-gradient(103.24deg, rgba(0, 8, 29, 0.9) 23.83%, rgba(0, 8, 29, 0.3) 96.1%), url(../img/15138.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 40px;
+
+}
+
+
+#cabeca {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: black;
+    border: 0px;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+  
+
+}
+#navbar{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content:center;
+    background-color:#00A9FF;
+    border-radius: 10px;
+   
+
+}
+.texto-1{
+    color: #CDF5FD;
+    text-decoration: none;
+    
+}
+
+#navbar3{
+  
+   
+    margin: 270px;
+}
+
+
+#main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200PX;
+    
+
+}
+.textos{
+    color: #CDF5FD;
+}
+
+#selecionarPagina{
+   background-color:#32b6f8;
+   border-radius: 10px;
+   cursor: pointer;
+   color: #A0E9FF;
+    
+}
+
+#botao{
+
+    background-color:#0889c9;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #CDF5FD;
+
+
+}
+.texto-list{
+   color: #CDF5FD;
+}
+
+/* Futebol*/
+
+#body-pages{
+
+    background-color: #cdf5fd31;
+    }
+
+#titulo-futebol{
+    display: flex;
+    border-bottom: 2px solid #89CFF3;
+    margin-left: 150px;
+    color: #00A9FF;
+}
+
+#corpo{
+    height: 3500px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #89CFF3;
+    margin: 50px;
+   
+}
+
+.corpo2{
+    display: flex;
+    margin: 5px;
+    margin-right: 50%;
+    height: 80px;
+    width: 800px;
+    border: 2px solid #333;
+}
+
+
+#top{
+    display: flex;
+    flex-direction: column;
+    height: 1360px;
+
+}
+#mid{
+    margin-block:70px;
+    height: 1300px;
+    flex-direction: row;
+   
+    
+    border: 2px solid #333;
+}
+#logo-regra{
+    height: 50px;
+    border: 2px solid #333;
+
+}
+
+#imagem-bola{
+
+    width: 300px;
+    align-items: center;
+    margin: 50px;
+    margin-left: 50px;
+}
+
+#logo-tv{
+    height: 60px;
+    border: 2px solid #333;
+
+}
+
+#low{
+    margin-block:70px;
+    flex-direction: row;
+    height: 1000px;
+    border: 2px solid #333;
+
+}
+
+#div-link-tv{
+display: flex;
+flex-direction: column;
+height: 1000px;
+width: 700px;
+
+
+}
+
+.canal{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 500px;
+   
+    margin: 30px;
+
+
+}
+.logo-canal{
+    width: 50%;
+}
+
+#historia{
+  margin-bottom: 52px;
+}
+
+.links{
+color: black;
+text-decoration:none;
+background-color: #A0E9FF;
+padding: 5px 10px;
+border-radius: 10px;
+
+}
+
+.links:hover{
+    background-color: #00A9FF;
+
+}
+
+.textos-4{
+color: rgba(0, 0, 0, 0.719);
+font-family: 'Circular Std', sans-serif;
+
+}
+
+/*Sobre*/
+
+#corpo-sobre{
+    display: flex;
+    flex-direction: row;
+    height: 1300px;
+    border: 2px solid #56c5fc;
+    margin: 50px;
+
+}
+
+#direita-sobre{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    width: 50%;
+    
+
+
+}
+
+#esquerda-sobre{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    width: 50%;
+    
+
+}
+
+.fed2{
+    display: flex;
+    flex-direction:row;
+    
+  
+    
+
+}
+
+.fed{
+   margin:50px
+    
+
+
+}
+
+#div-fed{
+
+    display: flex;
+    flex-direction:column;
+
+
+}
+
+
+
+.logo-fed{
+    width: 20%;
+    
+    align-items:first baseline
+
+}
